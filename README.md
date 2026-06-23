@@ -122,6 +122,7 @@
 
 طريقة تشغيله:
 1. استنساخ المشروع
+https://github.com/basma2dkvn/ecommerce_website
 
 2. اعداد قاعدة البيانات
 استورد ملف database.sql الى phpMyAdmin
