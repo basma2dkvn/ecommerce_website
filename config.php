@@ -1,5 +1,5 @@
 <?php
-ob_start(); // 1. أضف هذا السطر هنا لمنع إرسال المخرجات مبكراً
+ob_start(); 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
