@@ -137,3 +137,7 @@ https://github.com/basma2dkvn/ecommerce_website
 ب. اسم المستخدم  kamal@gmail.com
 كلمة المرور   123
 الدور   user
+
+ج. اسم المستخدم fatima@gmail.com
+كلمة المرور   123
+الدور   user
