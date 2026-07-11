@@ -1,6 +1,6 @@
 <?php
 require_once 'config.php';
-render_header("كتالوج الأجهزة - VELOCE TECH");
+render_header("كتالوج الأجهزة - Digital World");
 
 $category_filter = isset($_GET['category_id']) ? (int)$_GET['category_id'] : 0;
 $sort_order = isset($_GET['sort']) ? $_GET['sort'] : '';
@@ -34,7 +34,7 @@ $products = $stmt->fetchAll();
 $categories = $pdo->query("SELECT * FROM categories")->fetchAll();
 ?>
 
-<h2 style="font-size: 24px; font-weight: 700; margin-bottom: 5px; text-align: right;">المصفوفة الكاملة للمنتجات // Tech Matrix</h2>
+<h2 style="font-size: 24px; font-weight: 700; margin-bottom: 5px; text-align: right;">المصفوفة الكاملة للمنتجات // Digital World</h2>
 <p style="color: var(--text-secondary); font-size:14px; margin-bottom:30px; text-align: right;">استخدم أدوات التصفية والفرز الذكي للوصول إلى العتاد المطلوب فوراً.</p>
 
 <form method="GET" action="products.php" style="background: var(--bg-card); padding: 20px; border-radius: 16px; margin: 20px 0; display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; border:1px solid var(--border-color);">
