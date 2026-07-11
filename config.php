@@ -28,7 +28,7 @@ function sanitize($data) {
     return htmlspecialchars(trim($data), ENT_QUOTES, 'UTF-8');
 }
 
-function render_header($title = "VELOCE // TECH") {
+function render_header($title = "Digital World") {
     $role = isset($_SESSION['role']) ? $_SESSION['role'] : '';
     ?>
     <!DOCTYPE html>
@@ -119,7 +119,7 @@ function render_header($title = "VELOCE // TECH") {
     </head>
     <body>
     <header>
-        <a href="index.php" class="logo">VELOCE<span>//</span>TECH</a>
+        <a href="index.php" class="logo">Digital World</a>
         <nav>
             <a href="index.php">الرئيسية</a>
             <a href="products.php">كتالوج الأجهزة</a>
@@ -153,7 +153,7 @@ function render_footer() {
     ?>
     </div>
     <footer>
-        <p>جميع الحقوق محفوظة &copy; <?php echo date('Y'); ?> لشركة VELOCE TECH للتقنيات المتقدمة.</p>
+        <p>جميع الحقوق محفوظة &copy; <?php echo date('Y'); ?> لشركة Digital World للتقنيات المتقدمة.</p>
     </footer>
     </body>
     </html>
