@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-render_header("الدعم الفني - VELOCE TECH");
+render_header("الدعم الفني - Digital World");
 ?>
 
 <h2 style="font-size:24px; font-weight:700; margin-bottom:5px; text-align: right;">اتصل بنا // مركز اتصالات الدعم الفني والمراسلة</h2>
@@ -59,7 +59,7 @@ render_header("الدعم الفني - VELOCE TECH");
             <h3 style="color:var(--accent-cyan); margin-bottom:25px; font-size:18px; font-weight:600;">إحداثيات الاتصال الفعلي // HQ Coordinates</h3>
             <p style="margin-bottom: 20px; font-size:14px; color:var(--text-secondary);"><strong style="color:white; display:block; margin-bottom:4px;">📍 المقر الرئيسي:</strong> قطاع غزة، فلسطين - شارع عسقلان التقني</p>
             <p style="margin-bottom: 20px; font-size:14px; color:var(--text-secondary);"><strong style="color:white; display:block; margin-bottom:4px;">📞 الهاتف السلكي الأساسي:</strong> +970-59-XXXXXXX</p>
-            <p style="margin-bottom: 20px; font-size:14px; color:var(--text-secondary);"><strong style="color:white; display:block; margin-bottom:4px;">✉️ البريد الإلكتروني المركزي:</strong> core@velocetech.com</p>
+            <p style="margin-bottom: 20px; font-size:14px; color:var(--text-secondary);"><strong style="color:white; display:block; margin-bottom:4px;">✉️ البريد الإلكتروني المركزي:</strong> core@Digital World.com</p>
         </div>
         <div style="border-top: 1px solid var(--border-color); padding-top: 20px; font-size:12px; color:var(--text-secondary);">
             <p style="color:white; font-weight:600; margin-bottom:5px;">ساعات نافذة الصيانة الفعالة:</p>
