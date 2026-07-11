@@ -111,7 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-render_header("سلة المشتريات - VELOCE TECH");
+render_header("سلة المشتريات - Digital World");
 echo $feedback;
 
 $stmt = $pdo->prepare("
