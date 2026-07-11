@@ -1,6 +1,6 @@
 <?php
 require_once 'config.php';
-render_header("الرئيسية - VELOCE TECH");
+render_header("الرئيسية - Digital World");
 
 if (isset($_GET['search']) && !empty($_GET['search'])) {
     header("Location: products.php?query=" . urlencode($_GET['search']));
